@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+/* hero section and nav */
+
+.hero{
+    background-color: #1f2937;
+    color: #f9faf8;
+    margin: 0;
+    padding: 0 200px;
+    padding-bottom: 50px;
+}
+
+.header-logo{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 50px;
+}
+
+.hero-section{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.hero-content{
+    width: 500px;
+}
+
+.hero-main{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+img{
+    width: 500px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.hero-content > button{
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+/* Content and informatino section */
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 200px;
+    padding: 0 200px;
+}
+
+.content-title{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    margin: 0;
+    padding: 0 200px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+.info{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info > p{
+    padding: 0;
+    width: 200px;
+    text-align: center;
+}
+
+/* quotes */
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 200px;
+}
+
+.quote .message{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.uwu{
+    font-weight: 900;
+    font-size: 20px;
+    text-align: right;
+}
+
+/* Call to action */
+
+.call-to-action{
+    padding: 100px 200px;
+}
+
+.call{
+    margin: 0;
+    padding: 30px;
+    color: white;
+    background-color: #3882f6;
+    font-size: 18px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-title{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.call-text{
+    margin: 0;
+}
+
+.call-button > button{
+    border: 2px solid white;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+/* footer */
+
+footer{
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
